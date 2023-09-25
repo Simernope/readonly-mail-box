@@ -24,10 +24,13 @@
 - Хранение данных в localStorage.
 - Быстрое удаление писем.
 - Деплой приложения(https://readonly-mail-box.vercel.app/)
+- Алерт на основные взаимодействия
+- Динамический роутинг
 
 ![image](https://github.com/Simernope/readonly-mail-box/assets/73115375/d709b918-4e37-4584-a984-b30bc071f105)
 ![image](https://github.com/Simernope/readonly-mail-box/assets/73115375/5dda49f7-dbc1-491e-8e28-3a1f887705fc)
 ![image](https://github.com/Simernope/readonly-mail-box/assets/73115375/a939186c-d4ec-4fc1-9858-9d6b91d46e2e)
+![image](https://github.com/Simernope/readonly-mail-box/assets/73115375/b2553563-4ded-4a5e-a5e2-9986f9fe16b8)
 
 
 ## Запуск проекта
