@@ -1,46 +1,51 @@
-# Getting Started with Create React App
+# Почтовый клиент - Readonly Mail Box
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Данный проект представляет собой настраиваемый почтовый клиент, разработанный с использованием следующего стека технологий:
 
-## Available Scripts
+- React
+- TypeScript
+- MobX (для управления состоянием)
+- Tailwind CSS (для стилей)
+- Google Icons (для иконок)
 
-In the project directory, you can run:
+## Описание
+Почтовый клиент предоставляет следующий функционал:
 
-### `npm start`
+- Отображение списка писем в табличном виде с колонками: Автор, Превью, Дата.
+- Распределение писем по папкам, такими как "Входящие", "Отправленные", "Черновики", "Удаленные" и "Спам". Возможность перехода в каждую из папок для просмотра содержимого.
+- CRUD-операции для пользовательских папок: создание, просмотр кастомных папок для писем, а также перемещение в них писем.
+- Возможность выбора писем и перемещение их в другую папку.
+## Дополнительные фичи
+Помимо основных требований, в проекте также реализованы следующие дополнительные функции:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Отправка нового письма.
+- Открытие полного письма для просмотра, отображение автора, даты отправки и полного текста письма.
+- Поиск по всем письмам.
+- Хранение данных в localStorage.
+- Быстрое удаление писем.
+- Деплой приложения(https://readonly-mail-box.vercel.app/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![image](https://github.com/Simernope/readonly-mail-box/assets/73115375/d709b918-4e37-4584-a984-b30bc071f105)
+![image](https://github.com/Simernope/readonly-mail-box/assets/73115375/5dda49f7-dbc1-491e-8e28-3a1f887705fc)
+![image](https://github.com/Simernope/readonly-mail-box/assets/73115375/a939186c-d4ec-4fc1-9858-9d6b91d46e2e)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Запуск проекта
+- Склонируйте репозиторий
+- Установите зависимости
+```bash
+npm install
+```
+- Запустите приложение
+```bash
+npm start
+```
+Приложение будет доступно по адресу http://localhost:3000.
 
-### `npm run build`
+## Завершение
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Проект был успешно завершен и предоставлен в рамках требований и задач, изложенных в техническом задании. Разработка этого почтового клиента была увлекательным и продуктивным процессом.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Важно подчеркнуть, что проект всегда может быть улучшен и дополнен новыми функциями и возможностями. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Спасибо за внимание!
